@@ -17,9 +17,9 @@ import (
 
 	"errors"
 
-	"github.com/TruthHun/gotil/cryptil"
-	"github.com/TruthHun/gotil/filetil"
-	"github.com/TruthHun/gotil/ziptil"
+	"github.com/jmt99/gotil/cryptil"
+	"github.com/jmt99/gotil/filetil"
+	"github.com/jmt99/gotil/ziptil"
 )
 
 type Converter struct {

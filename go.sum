@@ -1,7 +1,7 @@
 github.com/Knetic/govaluate v3.0.0+incompatible/go.mod h1:r7JcOSlj0wfOMncg0iLm8Leh48TZaKVeNIfJntJ2wa0=
 github.com/OwnLocal/goes v1.0.0/go.mod h1:8rIFjBGTue3lCU0wplczcUgt9Gxgrkkrw7etMIcn8TM=
-github.com/TruthHun/gotil v0.0.0-20210509080330-2470bb9be7cd h1:WHNNuPS7Pc4rYhlN2mAPT4lXgGYNwX4tws8+DbfYSJY=
-github.com/TruthHun/gotil v0.0.0-20210509080330-2470bb9be7cd/go.mod h1:0V5BlPJa24R0PzuXVURUfjaQ8Z7cmqsVSW7ftuhesN0=
+github.com/jmt99/gotil v0.0.0-20210509080330-2470bb9be7cd h1:WHNNuPS7Pc4rYhlN2mAPT4lXgGYNwX4tws8+DbfYSJY=
+github.com/jmt99/gotil v0.0.0-20210509080330-2470bb9be7cd/go.mod h1:0V5BlPJa24R0PzuXVURUfjaQ8Z7cmqsVSW7ftuhesN0=
 github.com/astaxie/beego v1.12.0/go.mod h1:fysx+LZNZKnvh4GED/xND7jWtjCR6HzydR2Hh2Im57o=
 github.com/beego/goyaml2 v0.0.0-20130207012346-5545475820dd/go.mod h1:1b+Y/CofkYwXMUU0OhQqGvsY2Bvgr4j6jfT699wyZKQ=
 github.com/beego/x2j v0.0.0-20131220205130-a0352aadc542/go.mod h1:kSeGC/p1AbBiEp5kat81+DSQrZenVBZXklMLaELspWU=
