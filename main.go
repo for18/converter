@@ -1,11 +1,3 @@
-/*
- * @Author: your name
- * @Date: 2021-11-04 14:57:45
- * @LastEditTime: 2021-11-04 16:48:59
- * @LastEditors: your name
- * @Description: In User Settings Edit
- * @FilePath: /converter/main.go
- */
 //Author:TruthHun
 //Email:TruthHun@QQ.COM
 //Date:2018-01-21
