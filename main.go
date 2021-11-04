@@ -19,7 +19,7 @@ func main() {
 		if converter, err := converter.NewConverter(args[0]); err != nil {
 			fmt.Println(err.Error())
 		} else {
-			if err = converter.Convert(); err != nil {
+			if err = converter.Convert("123"); err != nil {
 				fmt.Println(err.Error())
 			}
 		}

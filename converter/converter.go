@@ -101,7 +101,7 @@ func NewConverter(configFile string, debug ...bool) (converter *Converter, err e
 }
 
 //执行文档转换
-func (this *Converter) Convert() (err error) {
+func (this *Converter) Convert(identify string) (err error) {
 	if !this.Debug { //调试模式下不删除生成的文件
 		defer this.converterDefer() //最后移除创建的多余而文件
 	}
@@ -185,6 +185,10 @@ func (this *Converter) Convert() (err error) {
 			if err = this.convertToWord(); err != nil {
 				errs = append(errs, err.Error())
 			}
+		case "markdown":
+			oldPath := this.BasePath +"/" + identify+ ".tar.gz"
+			target := this.BasePath + "/" + output +"/" +identify + ".tar.gz"
+			os.Rename(oldPath, target)
 		}
 	}
 	err = errors.New(strings.Join(errs, "\n"))
