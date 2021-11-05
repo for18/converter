@@ -186,8 +186,8 @@ func (this *Converter) Convert(identify string) (err error) {
 				errs = append(errs, err.Error())
 			}
 		case "markdown":
-			oldPath := this.BasePath +"/" + identify+ ".tar.gz"
-			target := this.BasePath + "/" + output +"/" +identify + ".tar.gz"
+			oldPath := this.BasePath +"/" + identify+ ".zip"
+			target := this.BasePath + "/" + output +"/" +identify + ".zip"
 			os.Rename(oldPath, target)
 		}
 	}
